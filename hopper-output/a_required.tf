@@ -5,4 +5,3 @@ resource "google_logging_project_sink" "a_required" {
   project                = "116267393806"
   unique_writer_identity = true
 }
-# terraform import google_logging_log_sink.a_required 116267393806###_Required
